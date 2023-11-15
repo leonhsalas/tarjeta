@@ -6,12 +6,14 @@
 }
 
 body{
-    background-color: darkblue;
+    background-image: url(img/desenfoque-interior-hospital-clinica_74190-5207.avif);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #todo{
@@ -50,14 +52,14 @@ body{
 #sesion{
     margin-top: 5vh;
     background-color: transparent;
-    width: 25vh;
-    height: 10vh;
+    width: 20vh;
+    height: 6vh;
     border-radius: 3vh;
     border-color: white;
 }
 
 #cuenta{
-    margin-top: 10vh;
+    margin-top: 7vh;
     font-size: 7vh;
 }
 
@@ -81,13 +83,14 @@ input{
 }
 
 #textoemail{
-    margin-top: 1vh;
+    margin-top: 2.5vh;
 }
 
 #iconos{
     display: flex;
     height: 8vh;
     width: 38vh;
+    margin-top: 2.5vh;
     justify-content: space-between;
 }
 
@@ -109,3 +112,39 @@ img{
     height: 2vh;
     width: 2vh;
 }
+
+#primerinput{
+    background-image:url(img/user.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+    right: 10000px;
+    padding-left: 40px;
+    color: black;
+}
+
+#segundoinput{
+    background-image:url(img/mail.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+    right: 10000px;
+    padding-left: 40px;
+    color: black;
+}
+
+#tercerinput{
+    background-image:url(img/lock.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+    right: 10000px;
+    padding-left: 40px;
+    color: black;
+}
+
+input::placeholder{
+    width: 100%;
+    padding-left: 20px;
+}
+
